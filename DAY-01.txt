@@ -1,0 +1,28 @@
+1. Write a blog on Difference between HTTP1.1 vs HTTP2 ?
+
+      -> HTTP 2 is more fater than the HTTP 1.1
+      -> HTTP/1.1, each request needed its own connection, leading to inefficiency and slower loading times, 
+especially for complex web pages with many resources.
+      -> HTTP 2 allows multiple requests and responses to be sent and received simultaneously on the same connection.
+      -> HHTP 2 has a higher loading speed and less broadband consumption.
+      -> HTTP 2 automatically prioritize.
+      -> HTTP 2  reducing overhead and improving efficiency whereas HTTP 1.1 sent as plain text for each request/response,
+leading to more data transfer and longer load times.
+      -> In HTTP 2 data are encoded in the binary format.
+
+2. Write a blog about objects and its internal representation in Javascript ?
+
+      Objects in JavaScript are fundamental data structures that allow developers to store and manipulate data efficiently. 
+Objects, in JavaScript, is it’s most important data-type and forms the building blocks for JavaScript. 
+These objects are quite different from JavaScript’s primitive data-types and all stored in a single value depending
+on their types.
+
+INTERNAL REPRESENTATION:
+
+HASH TABLE
+     Hash tables are data structures that allow for fast lookup of values based on keys. . In JavaScript, object properties are 
+typically stored in hash tables, where each property is associated with a unique hash key. 
+
+HIDDEN CLASSES
+     JavaScript engines optimize property access and memory usage by associating each object with a hidden class. 
+This hidden class defines the layout and structure of the object's properties.
